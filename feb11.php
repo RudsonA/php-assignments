@@ -1,3 +1,4 @@
+<!-- First assignment -->
 <?php 
 // Step 1: Create a variable and set to a string
 
@@ -7,9 +8,9 @@ $string = "variable to a string <br>";
 
 echo $string;
 
-// Step 3: Concatenate html tags to youur string and set to a new variable 
+// Step 3: Concatenate html tags to your string and set to a new variable 
 
-$stringCon = $string . " <div>";
+$stringCon = $string . "adding div tag <div>";
 
 // echo new variable 
 
@@ -19,5 +20,5 @@ echo $stringCon;
 
 var_dump($stringCon);
 
-echo "<img src='ab.jpeg'>"
+echo "<img src='img/ab.jpeg'>"; 
 ?> 

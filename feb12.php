@@ -39,10 +39,15 @@ echo "<br>";
 // Create a FOR loop that echos all string that have multiple words. --- use SWITCH case
 echo "Step 3";
 echo "<br>";
+
 $counter = [];
 for ($x = 0; $x < $arrayLength; $x++) {
-    switch ($x) {
-        case str_word_count($array5[$x], 0) > 1:
+    switch (str_word_count($array5[$x], 0)) {
+        case 0:
+            break;
+        case 1:
+            break;
+        case 2:
             array_push($counter, $array5[$x]); //Using this for bonus assignment
             echo $array5[$x]; 
             echo "<br>"; 
@@ -50,6 +55,14 @@ for ($x = 0; $x < $arrayLength; $x++) {
         default: 
             break; 
     }
+    
+        // if (str_word_count($array5[$x], 0) > 1) {
+        //     array_push($counter, $array5[$x]); //Using this for bonus assignment
+        //     echo $array5[$x]; 
+        //     echo "<br>";
+        // } 
+
+
 }
 
 // echo (str_word_count($array5[$x], 0) > 1);

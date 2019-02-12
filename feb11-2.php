@@ -2,37 +2,48 @@
 <?php
 // Step 1: Create a variable and set as empty object
 
-class emptyObject {
+// class obj1ect {
     
-}
-$emptyObj = new emptyObject();
+// }
+// $obj1 = new obj1ect();
+class obj1ect{};
+
+$obj1 = new obj1ect;
 
 // Step 2: Create a variable with an empty array
-$emptyArr = [];
+$arr = [];
 
 
 // Step 3: Add a string to array
-array_push($emptyArr, "String");
+array_push($arr, "String");
 
 // Step 4: Add array as a value to object
-$emptyObj = new ArrayObject(array($emptyArr));
+$obj1 = new ArrayObject(array($arr));
 
 // Step 5: Add an integer as a new position in array
-array_push($emptyArr, 13); 
+array_push($arr, 13); 
 
 // Step 6: Echo Object
-echo SERIALIZE($emptyObj); //strval($oneObj); 
+echo SERIALIZE($obj1); //strval($oneObj); 
 echo "<br>";
 
 // Step 7: Echo array in object
-echo SERIALIZE($emptyArr);
+echo SERIALIZE($arr);
 echo "<br>";
 
 // Var_dump ARRAY
-var_dump($emptyArr);
+var_dump($arr);
 echo "<br>";
 
 // Var_dump object
-var_dump($emptyObj); 
+var_dump($obj1); 
+echo "<br>"; 
 
+// Bonus 1: Add 500 to last index of Array
+array_push($arr, 500);
+echo SERIALIZE($arr); 
+echo "<br>";
+
+//Bonus 2: Reverse string in object as new property
+// use strrev
 ?>

@@ -42,10 +42,24 @@ echo "<br>";
 
 $counter = [];
 for ($x = 0; $x < $arrayLength; $x++) {
-    switch (str_word_count($array5[$x], 0)) {
-        case 0:
-            break;
-        case 1:
+    $arrayV = str_word_count($array5[$x], 0);
+    var_dump($arrayV);
+    echo "<br> array v: " . $arrayV . "<br>";  
+    switch ($arrayV) {
+        // case 0:
+        //     break;
+        // case 1:
+        //     break;
+        // case 2:
+        //     array_push($counter, $array5[$x]); //Using this for bonus assignment
+        //     echo $array5[$x]; 
+        //     echo "<br>"; 
+        //     break;
+        // default: 
+        //     break;
+
+        case (0 || 1): 
+            echo "yay";
             break;
         case 2:
             array_push($counter, $array5[$x]); //Using this for bonus assignment
@@ -53,6 +67,7 @@ for ($x = 0; $x < $arrayLength; $x++) {
             echo "<br>"; 
             break;
         default: 
+        echo "default";
             break; 
     }
     

@@ -79,14 +79,20 @@ echo "<br>";
 
 function favFood2($person) {
     $personFav = array("Peters" => "Big Mac", "Mike" => "Burgers", "Sara" => "Double Whooper w/ cheese", "Bing" => "Double Quarter Pounder w/ cheese", "John" => "Large Chicken Platter");
-    $foodFav = 
-    return "$person" . "'s" . " favorite food is " . "$foodFav";
+
+    return "$person" . "'s" . " favorite food is " . "$personFav[$person]";
     // return $personFav[$person];
 }
 
 echo favFood2("John"); 
+echo "<br>"; 
 
 
+function flowerFinder($flower) {
+    $type = ["roses", "tulps", "daises", "sunflowers"]; 
 
+    return $type[$flower];
+}
+echo flowerFinder("0");
 ?>
 

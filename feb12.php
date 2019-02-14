@@ -1,4 +1,4 @@
-<!-- Loop through an array and if -->
+
 <?php
 
 // Create a variable, set it to an array with 5 items 

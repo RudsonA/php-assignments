@@ -1,0 +1,18 @@
+
+html {
+    background-color: black;
+}
+table {
+    width: 100%;
+}
+
+td {
+    height: 50px;
+    align-content: center;
+    color: red; 
+}
+
+tr:hover {
+    background-color: aqua;
+}
+

@@ -19,7 +19,32 @@ echo "<br>";
 //For this exercise, you will use a list of ten cities in the world. 
     //Create an array with the following values: Tokyo, Mexico City, New York City, Mumbai, Seoul, Shanghai, Lagos, Buenos Aires, Cairo, London.
 
+$tenCities = ['Tokyo', 'Mexico City', 'NYC', 'Mumbai', 'Seoul', 'Shanghai', 'Lagos', 'Buenos Aires', 'Cairo', 'London'];
 
+//Print these values to the browser separated by commas, using a loop to iterate over the array.
+foreach ($tenCities as $cities) {
+    print "$cities, ";
+    echo "<br>";
+}
 
+//Sort the array, then print the values to the browser in an unordered list, again using a loop.
+sort($tenCities);
+echo "<ul>";
+foreach ($tenCities as $ulCities) {
+    print "<li> $ulCities </li>"; 
+}
+echo "</ul>";
+echo "<br>";
 
+//Add the following cities to the array: Los Angeles, Calcutta, Osaka, Beijing. 
+array_push($tenCities, "Los Angeles", "Calcutta", "Osaka", "Beijing");
+
+//Sort the array again, and print it once more to the browser in an unordered list.
+sort($tenCities);
+print "<ul>";
+foreach ($tenCities as $ulCities) {
+    echo "<li> $ulCities </li>";
+}
+echo "</ul>";
+echo "<br>";
 ?>

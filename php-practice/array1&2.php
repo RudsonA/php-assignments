@@ -1,6 +1,6 @@
 
 <!-- https://www.phpexercises.com/php-arrays-exercises.html -->
-
+1 <br>
 <?php
 //PHP Arrays Ex. #1: Simple Array
     //Write an array variable of weather conditions with the following values: rain, sunshine, clouds, hail, sleet, snow, wind. Using the array variable for all the weather conditions, echo the following statement to the browser:
@@ -13,7 +13,9 @@ echo "We've seen all kinds of weather this month. At the beginning of the month,
 echo "<br>";
 ?>
 
-
+<br>
+2
+<br>
 <!-- PHP Arrays Ex. #2: Simple Array Loop -->
 <?php
 //For this exercise, you will use a list of ten cities in the world. 

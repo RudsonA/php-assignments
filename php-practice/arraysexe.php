@@ -13,3 +13,13 @@ echo "We've seen all kinds of weather this month. At the beginning of the month,
 echo "<br>";
 ?>
 
+
+<!-- PHP Arrays Ex. #2: Simple Array Loop -->
+<?php
+//For this exercise, you will use a list of ten cities in the world. 
+    //Create an array with the following values: Tokyo, Mexico City, New York City, Mumbai, Seoul, Shanghai, Lagos, Buenos Aires, Cairo, London.
+
+
+
+
+?>

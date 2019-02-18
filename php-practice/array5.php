@@ -32,4 +32,12 @@ Follow this request with a select field for the 10 cities, with the options crea
         $country = array_search($city, $countryCity);
         echo "$city is in $country";
     }
+    echo "<br>";
+    ?>
+
+<pre>
+    <?php
+    $cities = ["Tokyo", "Cairo", "singapore"];
+    var_dump($cities);
 ?>
+</pre>

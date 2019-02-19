@@ -1,6 +1,5 @@
 
 <?php
-include "feb19-header.php";
 $users = ["luffy", "zoro", "mihawk", "rayleigh"]; 
 
 $counter = 0; 
